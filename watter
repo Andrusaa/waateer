@@ -5,25 +5,25 @@ Nitrit = float(input())
 nitrat = float(input())
 
 if Ph >= 8.5 or Ph <= 6.5:
-    print(" este rau")
+    print(" depasirea ph-ului")
 else:
-    print(" este buna")
+    print(" ph corespunde conform standardelor")
 if Duritatea > 2 or Duritatea < 0:
-    print(" nu este buna duritatea")
+    print(" depasirea duritații")
 else:
-    print("este buna duritatea")
+    print("duritatean corespunde conform standardelor")
 
 if Cl >0.5 or Cl <0.3 :
-    print("Nu se ajung ioni de clor")
+    print("Depasirea ionilor de clor")
 else:
-    print("clor este deajuns")
+    print("clor corespunde conform standardelor")
 
 if Nitrit >0.5:
-    print("nitrit este mult")
+    print("depasirea nitritului")
 else:
-    print("nitrit este deajuns")
+    print("nitritul corespunde conform standardelor")
 
 if nitrat >10:
-    print("nitrat este mult")
+    print("depasirea nitratului")
 else:
-    print("nitrat este deajuns")
+    print("nitrat corespunde conform standardelor")
