@@ -1,0 +1,29 @@
+Ph = float(input())
+Duritatea = float(input())
+Cl = float(input())
+Nitrit = float(input())
+nitrat = float(input())
+
+if Ph >= 8.5 or Ph <= 6.5:
+    print(" depasirea ph-ului")
+else:
+    print(" ph corespunde conform standardelor")
+if Duritatea > 2 or Duritatea < 0:
+    print(" depasirea duritații")
+else:
+    print("duritatean corespunde conform standardelor")
+
+if Cl >0.5 or Cl <0.3 :
+    print("Depasirea ionilor de clor")
+else:
+    print("clor corespunde conform standardelor")
+
+if Nitrit >0.5:
+    print("depasirea nitritului")
+else:
+    print("nitritul corespunde conform standardelor")
+
+if nitrat >10:
+    print("depasirea nitratului")
+else:
+    print("nitrat corespunde conform standardelor")
